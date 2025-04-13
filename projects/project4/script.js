@@ -1,6 +1,6 @@
 const apiKey = "d439d481"; 
 const movieTitle = "Interstellar";
-const url = `http://www.omdbapi.com/?apikey=${apiKey}&t=${encodeURIComponent(
+const url = `https://www.omdbapi.com/?apikey=${apiKey}&t=${encodeURIComponent(
   movieTitle
 )}`;
 
